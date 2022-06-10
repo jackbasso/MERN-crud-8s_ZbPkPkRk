@@ -11,4 +11,9 @@ npm install nodemon (reinicia el server cuando cambia un archivo)
 Reinicio el server con:
 npx nodemon server.js (npx es por si instalo localmente; ver documentación)
 
-43:37
+MongoDB 43:37
+https://www.mongodb.com/es (Products-Community Server y descargo el msi)
+con el msi me aseguro de instalar el MongoDB Compass (visual de la db)
+https://mongoosejs.com/ (npm install mongoose)
+
+1:00:13

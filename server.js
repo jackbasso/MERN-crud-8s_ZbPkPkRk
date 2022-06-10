@@ -1,5 +1,7 @@
 const express = require('express')
 const app = express()
+//importo mi conexion mongoose
+const conexionMongoose = require('./conexion')
 
 app.get('/', (req, res) => {
   res.end('Bienvenidos al servidor Node')
