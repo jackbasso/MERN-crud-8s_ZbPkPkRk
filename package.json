@@ -1,0 +1,26 @@
+{
+  "name": "crud-mern-stack",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.18.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jackbasso/MERN-crud-8s_ZbPkPkRk.git"
+  },
+  "author": "Jack Baso",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jackbasso/MERN-crud-8s_ZbPkPkRk/issues"
+  },
+  "homepage": "https://github.com/jackbasso/MERN-crud-8s_ZbPkPkRk#readme"
+}
