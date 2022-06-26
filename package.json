@@ -4,6 +4,7 @@
   "description": "",
   "main": "server.js",
   "dependencies": {
+    "body-parser": "^1.20.0",
     "express": "^4.18.1",
     "mongoose": "^6.3.6"
   },
@@ -23,5 +24,6 @@
   "bugs": {
     "url": "https://github.com/jackbasso/MERN-crud-8s_ZbPkPkRk/issues"
   },
-  "homepage": "https://github.com/jackbasso/MERN-crud-8s_ZbPkPkRk#readme"
+  "homepage": "https://github.com/jackbasso/MERN-crud-8s_ZbPkPkRk#readme",
+  "proxy": "http://localhost:5000/"
 }
