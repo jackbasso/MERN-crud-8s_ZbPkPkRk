@@ -41,4 +41,8 @@ const bodyParser = require('body-parser')
 app.use(bodyParser.json())
 app.use(bodyParser.urlencoded({extended:'true'}))
 
-1:30 minuto
+Instalé Libreria para animar componentes como el listadoUsuarios https://michalsnik.github.io/aos/
+  npm install aos
+
+Instalé SweetAlert 2 para mostrar alerts más estilizadas
+  npm install sweetalert2
