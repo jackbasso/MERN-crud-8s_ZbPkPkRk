@@ -58,3 +58,31 @@ router.post('/obtenerdatausuario', (req, res) => {
     }
 })
 })
+
+//Editar usuario
+router.post('/actualizausuario', (req, res) => {
+  
+  ModeloUsuario.findOneAndUpdate({idusuario: req.body.idusuario}, { 
+    nombre: req.body.nombre,
+    email: req.body.email,
+    telefono: req.body.telefono
+  }, (err) => {
+    if(!err){
+      res.send('Usuario actualizado exitosamente')
+    } else {
+      res.send(err)
+    }
+  })
+})
+
+//Eliminar usuario
+router.post('/eliminarusuario', (req, res) => {
+  
+  ModeloUsuario.findOneAndDelete({idusuario: req.body.idusuario}, (err) => {
+    if(!err){
+      res.send("Usuario eliminado correctamente")
+    } else {
+      res.send(err)
+    }
+  })
+})
